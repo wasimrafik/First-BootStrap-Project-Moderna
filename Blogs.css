@@ -1,0 +1,276 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background: rgba(30, 67, 86, 0.8) !important;
+    
+}
+.navtop{
+    padding: 0px;
+}
+.nav-link{
+    color: #fff !important;
+    color: #a2cce3;
+}
+.nav-link:hover{
+
+    color: #a2cce3 !important;
+}
+.navbar-brand{
+    color: #fff !important;
+}
+
+.sec1{
+    background: #a0cce394;
+}
+.sec11 ul{
+    list-style-type: none;
+    padding-left: 5px;
+}
+.sec11 a{
+    text-decoration: none;
+    color: #40abe4;
+}
+
+.sec11 li::before{
+    content: "/";
+    margin-right: 10px;
+}
+
+.sec2h5 a{
+    text-decoration: none;
+    color: #1e4356;
+    font-size: 28px;
+}
+.sec2h5 a:hover{
+    color: #68A4C4;
+}
+.sec2muted a{
+    text-decoration: none;
+    color: gray;
+}
+.sec2muted span{
+    color: #68A4C4;
+    margin: 5px 5px;
+}
+
+.btnsec2{
+    display: inline-block;
+    background: #68A4C4;
+    color: #fff !important;
+    padding: 6px 20px;
+    transition: 0.3s;
+    font-size: 14px;
+    text-align-last: right !important;
+    -ms-text-align-last: right !important;
+    -moz-text-align-last: right !important;
+}
+.btnsec2 a{
+    color: #fff !important;
+    transition: 0.3s;
+    font-size: 14px;   
+}
+.btnsec2:hover{
+    background: #1e4356 !important;
+}
+.sec2page nav{
+    border: none !important;
+}
+.sec2page a{
+    border: none !important;
+    color: #40abe4;
+}
+.sec2page .page-link:hover{
+    background: #40abe4;
+    color: #fff;
+}
+.page-link{
+    color: #40abe4;
+}
+form{
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 3px 10px;
+    position: relative;
+    margin: 20px 30px;
+}
+input{
+    border: 0;
+    padding: 4px;
+    border-radius: 4px;
+    width: calc(100% - 40px);
+}
+
+form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 15px;
+    margin: -1px;
+    background: #68A4C4;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+    line-height: 0;
+}
+
+.sec22 a{
+    text-decoration: none;   
+    color: #40abe4;
+    margin: 5px 0;
+}
+.sec22 a span{
+    color: gray;
+}
+
+.sec22img a{
+    text-decoration: none;
+    color: #1e4356;
+    font-weight: bold;
+}
+.card{
+    border: none !important;
+}
+.sec22tag{
+    margin: 10px 25px;
+}
+.sec22tag a{
+    display: inline-block;
+    flex-direction: column;
+    text-decoration: none;
+    color: #4fa6d5;
+    border: 1px solid rgba(128, 128, 128, 0.292);
+    padding: 5px 8px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: #0d2735;
+    color: #fff;
+}
+.ournews{
+    padding: 50px 0 !important;
+}
+
+.ournews input{
+    border: none;
+    box-shadow: none;
+    width: 70%;
+    }
+
+  .ournews input:focus{
+      border: 2px solid #fff;
+      }
+  
+  .Sub{
+      position: relative;
+      width: 90%;
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 10px;
+  
+  }
+   .Subscribe{
+      position: absolute;
+      top: 0px;
+      right: 2px;
+      bottom: 0px;
+      border: 2px solid black;
+      border-radius: 20px;
+      background: #68A4C4;
+      color: #fff;
+      margin: 2px 0px;
+  }
+  .Subscribe:hover{
+  
+      background: #a2cce3;
+      color: #0b212d;
+      margin: 2px 0px;
+  }
+
+/* Media Quiery pending */
+
+.footer2 ul{
+   list-style-type: none !important;
+   padding-left: 0px
+}
+.footer2 ul li{
+    margin: 10px 0px !important;
+ }
+
+.footer2 a{
+    text-decoration: none;
+    color: #fff;
+ }
+ .footer2 a:hover{
+    color: #a2cce3 !important;
+ }
+.social i{
+    margin: 10px;
+}
+.social i:hover{
+    color: #a2cce3 !important;
+    transition: all 0.5s;
+    
+}
+
+.footerlast{
+    background: #0b212d;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+.credits a{
+ text-decoration: none;
+ color: #a2cce3;
+}
+.credits{
+margin-top: 10px;
+   }
+
+
+@media screen and (max-width: 426px){
+
+    .subbtn{
+        position: absolute !important;
+        top: 209px !important;
+        right: 16px !important;
+        bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 769px){
+
+    .subbtn{
+        position: absolute !important;
+        top: 212px !important;
+        right: 258px !important;
+        bottom: 0px;
+    }
+} 
+@media screen and (min-width: 770px) and (max-width: 989px){
+
+    .subbtn{
+        position: absolute !important;
+        top: 212px !important;
+        right: 370px !important;
+        bottom: 0px;
+    }
+}

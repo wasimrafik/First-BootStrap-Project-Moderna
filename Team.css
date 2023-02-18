@@ -1,0 +1,220 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background: rgba(30, 67, 86, 0.8) !important;
+    
+}
+.navtop{
+    padding: 0px;
+}
+.nav-link{
+    color: #fff !important;
+    color: #a2cce3;
+}
+.nav-link:hover{
+
+    color: #a2cce3 !important;
+}
+.navbar-brand{
+    color: #fff !important;
+}
+
+.sec1{
+    background: #a0cce394;
+}
+.sec11 ul{
+    list-style-type: none;
+    padding-left: 5px;
+}
+.sec11 a{
+    text-decoration: none;
+    color: #40abe4;
+}
+
+.sec11 li::before{
+    content: "/";
+    margin-right: 10px;
+}
+
+.card-title{
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-weight: bolder;
+}
+
+.card{
+    border: none;
+}
+.card-body span{
+    font-size: 13px;
+    color: #68A4C4;
+}
+.card-body p{
+    font-size: 13px;
+    margin-top: 18px;
+    color: #666;
+}
+
+.imgbox{
+    position: relative;
+}
+
+.socialin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    background: rgba(30, 67, 86, 0.741);
+    opacity: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    
+}
+
+.socialin i{
+    padding: 0 15px;
+}
+
+.card:hover .socialin{
+    opacity: 1;
+    transition: all ease-in-out 0.4s; 
+    transform-origin: bottom;
+}
+
+
+
+
+footer{
+    background: #0d2735;
+    color: #fff;
+}
+.ournews{
+    padding: 50px 0 !important;
+}
+.ournews input{
+    border: none;
+    box-shadow: none;
+    width: 70%;
+    }
+
+.ournews input:focus{
+    border: 2px solid #fff;
+    }
+
+.Sub{
+    position: relative;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+ .Subscribe{
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    bottom: 0px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #68A4C4;
+    color: #fff;
+    margin: 2px 0px;
+}
+.Subscribe:hover{
+
+    background: #a2cce3;
+    color: #0b212d;
+    margin: 2px 0px;
+}
+
+
+
+/* Media Quiery pending */
+
+.footer2 ul{
+   list-style-type: none !important;
+   padding-left: 0px
+}
+.input-group{
+    position: relative;
+    width: 300px;
+    
+}
+.input-group .btn-outline-secondary{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+input{
+    border-radius: 20px;
+}
+.footer2 ul li{
+    margin: 10px 0px !important;
+ }
+
+.footer2 a{
+    text-decoration: none;
+    color: #fff;
+ }
+ .footer2 a:hover{
+    color: #a2cce3 !important;
+ }
+.social i{
+    margin: 10px;
+}
+.social i:hover{
+    color: #a2cce3 !important;
+    transition: all 0.5s;
+    
+}
+
+.footerlast{
+    background: #0b212d;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+.credits a{
+ text-decoration: none;
+ color: #a2cce3;
+}
+.credits{
+margin-top: 10px;
+   }
+
+
+@media screen and (max-width: 426px){
+
+    .subbtn{
+        position: absolute !important;
+        top: 209px !important;
+        right: 16px !important;
+        bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 769px){
+
+    .subbtn{
+        position: absolute !important;
+        top: 212px !important;
+        right: 258px !important;
+        bottom: 0px;
+    }
+} 
+@media screen and (min-width: 770px) and (max-width: 989px){
+
+    .subbtn{
+        position: absolute !important;
+        top: 212px !important;
+        right: 370px !important;
+        bottom: 0px;
+    }
+}

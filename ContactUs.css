@@ -1,0 +1,179 @@
+
+ 
+ .navbar{
+    background: rgba(30, 67, 86, 0.8) !important;
+    
+}
+.navtop{
+    padding: 0px;
+}
+.nav-link{
+    color: #fff !important;
+    color: #a2cce3;
+}
+.nav-link:hover{
+
+    color: #a2cce3 !important;
+}
+.navbar-brand{
+    color: #fff !important;
+}
+
+
+.sec1{
+    background: #a0cce394;
+}
+.sec11 ul{
+    list-style-type: none;
+    padding-left: 5px;
+}
+.sec11 a{
+    text-decoration: none;
+    color: #40abe4;
+}
+
+.sec11 li::before{
+    content: "/";
+    margin-right: 10px;
+}
+
+.sec2{
+    box-shadow: 0px 0px 1px #888888 ;
+    color: #666;
+}
+.sec2icn{
+    border: 2px dotted #40abe4;
+    border-radius: 50%;
+    padding: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #40abe4;
+}
+.sec2icn2{
+    border: 2px dotted #40abe4;
+    border-radius: 50%;
+    padding: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #40abe4;
+}
+.btn11{
+    background-color: #68A4C4 !important;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+footer{
+    background: #0d2735;
+    color: #fff;
+}
+.ournews{
+    padding: 50px 0 !important;
+}
+.ournews input{
+    border: none;
+    box-shadow: none;
+    width: 70%;
+    }
+
+.ournews input:focus{
+    border: 2px solid #fff;
+    }
+
+.Sub{
+    position: relative;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+ .Subscribe{
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    bottom: 0px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #68A4C4;
+    color: #fff;
+    margin: 2px 0px;
+}
+.Subscribe:hover{
+
+    background: #a2cce3;
+    color: #0b212d;
+    margin: 2px 0px;
+}
+
+
+
+/* Media Quiery pending */
+
+.footer2 ul{
+   list-style-type: none !important;
+   padding-left: 0px
+}
+.footer2 ul li{
+    margin: 10px 0px !important;
+ }
+
+.footer2 a{
+    text-decoration: none;
+    color: #fff;
+ }
+ .footer2 a:hover{
+    color: #a2cce3 !important;
+ }
+.social i{
+    margin: 10px;
+}
+.social i:hover{
+    color: #a2cce3 !important;
+    transition: all 0.5s;
+    
+}
+
+.footerlast{
+    background: #0b212d;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+.credits a{
+ text-decoration: none;
+ color: #a2cce3;
+}
+.credits{
+margin-top: 10px;
+   }
+
+
+@media screen and (max-width: 426px){
+
+    .subbtn{
+        position: absolute !important;
+        top: 209px !important;
+        right: 16px !important;
+        bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 769px){
+
+    .subbtn{
+        position: absolute !important;
+        top: 212px !important;
+        right: 258px !important;
+        bottom: 0px;
+    }
+} 
+@media screen and (min-width: 770px) and (max-width: 989px){
+
+    .subbtn{
+        position: absolute !important;
+        top: 212px !important;
+        right: 370px !important;
+        bottom: 0px;
+    }
+}
